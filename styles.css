@@ -12,6 +12,7 @@ h2 {
     color: white;
     font-family: "Candara", Arial, SansSerif;
     font-style: italic;
+    font-size: 14px;
 }
 
 p {
@@ -19,4 +20,5 @@ p {
     font-family: "Verdana", Arial, SansSerif;
     font-size: 10px;
     text-align: center;
+    width: 50%;
 }
