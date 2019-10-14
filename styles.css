@@ -11,9 +11,12 @@ h1 {
 h2 {
     color: white;
     font-family: "Candara", Arial, SansSerif;
+    font-style: italic;
 }
 
 p {
     color: white;
     font-family: "Verdana", Arial, SansSerif;
+    font-size: 10px;
+    width: 50%;
 }
