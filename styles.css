@@ -4,20 +4,35 @@ body {
 }
 
 h1 {
-    color: white;
+    color: #FBEEC1;
     font-family: "Candara", Arial, SansSerif;
 }
 
 h2 {
     color: white;
     font-family: "Candara", Arial, SansSerif;
-    font-style: italic;
     font-size: 18px;
+}
+
+h3 {
+    color: white;
+    font-family: "Candara", Arial, SansSerif;
+    font-size: 14px;
 }
 
 p {
     color: white;
     font-family: "Verdana", Arial, SansSerif;
     font-size: 10px;
-    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-style: italic;
+}
+
+
+.icons{
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
 }
