@@ -36,3 +36,16 @@ p {
     height: 150px;
     margin: 20px;
 }
+
+a {
+    font-family: "Candara", Arial, SansSerif;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration-color: white;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FBEEC1;
+}
