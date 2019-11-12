@@ -6,27 +6,28 @@ body {
 h1 {
     color: #FBEEC1;
     font-family: "Candara", Arial, SansSerif;
+	font-size:2vw;
 }
 
 h2 {
     color: white;
     font-family: "Candara", Arial, SansSerif;
-    font-size: 18px;
+	font-size:1.5vw;
 }
 
 h3 {
     color: white;
     font-family: "Candara", Arial, SansSerif;
-    font-size: 14px;
+    font-size:1vw;
 }
 
 p {
     color: white;
     font-family: "Verdana", Arial, SansSerif;
-    font-size: 10px;
     margin: auto;
     width: 50%;
     font-style: italic;
+	font-size:0.7vw;
 }
 
 
