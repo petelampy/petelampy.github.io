@@ -1,5 +1,5 @@
 body {
-    background-color: #659DBD;
+    background-color: #b0afac;
     text-align: center;
 }
 
@@ -49,4 +49,19 @@ a {
 a:hover {
     text-decoration: none;
     color: #FBEEC1;
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 13px;
+    }
+    p {
+        font-size: 11px;
+    }
 }
