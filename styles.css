@@ -6,19 +6,19 @@ body {
 h1 {
     color: #003249;
     font-family: "Candara", Arial, SansSerif;
-    font-size: 17px;
+    font-size: 2vw;
 }
 
 h2 {
     color: #007EA7;
     font-family: "Candara", Arial, SansSerif;
-    font-size: 15px;
+    font-size: 1.5vw;
 }
 
 h3 {
     color: #007EA7;
     font-family: "Candara", Arial, SansSerif;
-    font-size: 13px;
+    font-size: 1vw;
 }
 
 p {
@@ -27,7 +27,7 @@ p {
     margin: auto;
     width: 50%;
     font-style: italic;
-    font-size: 11px;
+    font-size: 0.8vw;
 }
 
 
@@ -83,10 +83,49 @@ div.desc {
     width: 24.99999%;
 }
 
+.titlesdiv {
+    display: block;
+}
+
+.breaks {
+    display: block;
+}
+
+.titlesdiv2 {
+    display: none;
+}
+
 @media only screen and (max-width: 700px) {
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
+    }
+    h1 {
+        font-size:17px;
+    }
+    h2 {
+        font-size:15px;
+    }
+    h3 {
+        font-size:13px;
+    }
+    p {
+        font-size:11px;
+    }
+    .titlesdiv {
+        display: none;
+    }
+    .titlesdiv2 {
+        display: block;
+    }
+    .breaks {
+        display: none;
+    }
+    .icons {
+        width: 50%
+    }
+    .meimage {
+        width: 70%
     }
 }
 
@@ -104,19 +143,3 @@ div.desc {
 
 
 
-
-
-@media only screen and (min-width: 500px) {
-    h1 {
-        font-size:2vw;
-    }
-    h2 {
-        font-size:1.5vw;
-    }
-    h3 {
-        font-size:1vw;
-    }
-    p {
-        font-size:0.8vw;
-    }
-}
