@@ -1,53 +1,23 @@
-body {
-    background-color: #b0afac;
-    text-align: center;
-}
-
-h1 {
-    color: #FBEEC1;
-    font-family: "Candara", Arial, SansSerif;
-    font-size:2vw;
-}
-
-h2 {
-    color: white;
-    font-family: "Candara", Arial, SansSerif;
-    font-size:1.5vw;
-}
-
-h3 {
-    color: white;
-    font-family: "Candara", Arial, SansSerif;
-    font-size:1vw;
-}
-
-p {
-    color: white;
-    font-family: "Verdana", Arial, SansSerif;
-    margin: auto;
-    width: 50%;
-    font-style: italic;
-    font-size:0.8vw;
-}
-
-
-
 div.gallery {
-    border: 1px solid #ccc;
+    margin: 0;
+    padding: 0 0;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    margin: 0;
+    padding: 0 0;
 }
 
 div.gallery img {
+    border: 1px solid white;
     width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0 0;
 }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
+div.gallery img:hover {
+    border: 1px solid grey;
 }
 
 * {
@@ -55,21 +25,46 @@ div.desc {
 }
 
 .responsive {
-    padding: 0 6px;
+    padding: 10px 10px;
     float: left;
-    width: 24.99999%;
+    width: 25%;
+}
+
+.thebanner {
+    width: 50%;
+}
+
+.sizing {
+    width: 8%;
+}
+
+a {
+    border: none;
+    margin: 0;
+    border: 0;
 }
 
 @media only screen and (max-width: 700px) {
     .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
+        width: 50%;
+    }
+    .thebanner {
+        width: 75%;
+    }
+    .sizing {
+        width: 10%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .responsive {
         width: 100%;
+    }
+    .thebanner {
+        width: 100%;
+    }
+    .sizing {
+        width: 12%;
     }
 }
 
