@@ -7,7 +7,7 @@ h1 {
 h2 {
     color: white;
     font-family: "Candara", Arial, SansSerif;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 h3 {
@@ -17,12 +17,9 @@ h3 {
 }
 
 p {
-    color: #007EA7;
+    color: white;
     font-family: "Verdana", Arial, SansSerif;
-    margin: auto;
-    width: 50%;
-    font-style: italic;
-    font-size: 0.8vw;
+    font-size: 0.9vw;
 }
 
 body {
